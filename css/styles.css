@@ -7358,8 +7358,18 @@ textarea.form-control-lg {
   margin-right: auto !important;
 }
 
+.mb-0-1 {
+  margin-bottom: 0 !important;
+  font-size: 70px;
+}
 .mb-0 {
   margin-bottom: 0 !important;
+}
+
+.mb-0-2 {
+  margin-bottom: 0 !important;
+    display:grid;
+    grid-template-columns:1fr 1fr
 }
 
 .mb-1 {
@@ -11412,11 +11422,24 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+section.common-section {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+
 section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+section.common-section .common-section-content {
   width: 100%;
 }
 
