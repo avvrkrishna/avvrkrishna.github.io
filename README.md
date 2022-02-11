@@ -1,2 +1,2 @@
 # avvrkrishna.github.io
-github Profile Repository
+Profile Repository with more details about professional life
